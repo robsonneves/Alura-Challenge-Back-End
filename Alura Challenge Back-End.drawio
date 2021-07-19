@@ -1,1 +1,114 @@
-<mxfile host="app.diagrams.net" modified="2021-07-19T17:05:08.300Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" version="14.9.0" etag="bmOx6Ei7oM6__-d9CKti" type="github"><diagram id="cbEvNvnUCe6IunStvmVb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-19T17:47:36.879Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="ZwUv0ymrUlgle_qKipUp" version="14.9.0" type="github">
+  <diagram id="cbEvNvnUCe6IunStvmVb" name="Page-1">
+    <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OwLo8n09U2crHjiFJuwS-2" value="Front-End" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="115" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OwLo8n09U2crHjiFJuwS-4" value="Angular" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="45" y="240" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OwLo8n09U2crHjiFJuwS-5" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" target="OwLo8n09U2crHjiFJuwS-4" parent="1" source="OwLo8n09U2crHjiFJuwS-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwLo8n09U2crHjiFJuwS-7" value="React" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="55" y="200" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OwLo8n09U2crHjiFJuwS-8" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=0.375;exitY=1;exitDx=0;exitDy=0;" edge="1" target="OwLo8n09U2crHjiFJuwS-7" parent="1" source="OwLo8n09U2crHjiFJuwS-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwLo8n09U2crHjiFJuwS-9" value="Back-End" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="425" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OwLo8n09U2crHjiFJuwS-11" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="715" y="100" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OwLo8n09U2crHjiFJuwS-12" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OwLo8n09U2crHjiFJuwS-2" target="OwLo8n09U2crHjiFJuwS-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445" y="150" as="sourcePoint" />
+            <mxPoint x="495" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwLo8n09U2crHjiFJuwS-14" value="REST" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="315" y="112" width="60" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OwLo8n09U2crHjiFJuwS-15" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OwLo8n09U2crHjiFJuwS-9" target="OwLo8n09U2crHjiFJuwS-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="555" y="138" as="sourcePoint" />
+            <mxPoint x="685" y="138" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwLo8n09U2crHjiFJuwS-16" value="NodeJS" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="345" y="180" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OwLo8n09U2crHjiFJuwS-17" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=0.375;exitY=1;exitDx=0;exitDy=0;" edge="1" target="OwLo8n09U2crHjiFJuwS-16" parent="1" source="OwLo8n09U2crHjiFJuwS-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="385" y="240" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwLo8n09U2crHjiFJuwS-18" value="JAVA(Spring-Boot)" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="295" y="210" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OwLo8n09U2crHjiFJuwS-19" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" target="OwLo8n09U2crHjiFJuwS-18" parent="1" source="OwLo8n09U2crHjiFJuwS-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwLo8n09U2crHjiFJuwS-20" value="Phyton" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="355" y="240" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OwLo8n09U2crHjiFJuwS-21" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=0.575;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="OwLo8n09U2crHjiFJuwS-20" parent="1" source="OwLo8n09U2crHjiFJuwS-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwLo8n09U2crHjiFJuwS-22" value="GO" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="375" y="270" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OwLo8n09U2crHjiFJuwS-23" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=0.625;exitY=1;exitDx=0;exitDy=0;" edge="1" target="OwLo8n09U2crHjiFJuwS-22" parent="1" source="OwLo8n09U2crHjiFJuwS-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwLo8n09U2crHjiFJuwS-24" value="SQLServer" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="625" y="190" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OwLo8n09U2crHjiFJuwS-25" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="OwLo8n09U2crHjiFJuwS-24" parent="1" source="OwLo8n09U2crHjiFJuwS-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="685" y="270" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwLo8n09U2crHjiFJuwS-27" value="MySQLServer" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="605" y="220" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OwLo8n09U2crHjiFJuwS-28" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=0.667;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="OwLo8n09U2crHjiFJuwS-27" parent="1" source="OwLo8n09U2crHjiFJuwS-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="745" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwLo8n09U2crHjiFJuwS-29" value="NoSql" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="655" y="250" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OwLo8n09U2crHjiFJuwS-30" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=0.855;exitY=1;exitDx=0;exitDy=-4.35;exitPerimeter=0;" edge="1" target="OwLo8n09U2crHjiFJuwS-29" parent="1" source="OwLo8n09U2crHjiFJuwS-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwLo8n09U2crHjiFJuwS-31" value="Mobile /&amp;nbsp; Flutter" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="15" y="280" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OwLo8n09U2crHjiFJuwS-32" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=0.625;exitY=1;exitDx=0;exitDy=0;" edge="1" target="OwLo8n09U2crHjiFJuwS-31" parent="1" source="OwLo8n09U2crHjiFJuwS-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
